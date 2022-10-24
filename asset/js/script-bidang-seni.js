@@ -1,16 +1,16 @@
 const BASE_URL = "https://63547f47e64783fa8285a355.mockapi.io/Bidang-senirupa";
 
-getGitar(BASE_URL)
+getBidang(BASE_URL)
 
-function getGitar(url){
+function getBidang(url){
     fetch(url).then(result => result.json())
     .then(data =>  {
         // console.log(data);
-        showGitar(data);
+        showBidang(data);
     })
 }
 
-function showGitar(data){
+function showBidang(data){
     let main = '';
     data.forEach(unsurSeniRupa => {
         console.log(unsurSeniRupa);

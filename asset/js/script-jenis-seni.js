@@ -1,16 +1,16 @@
 const BASE_URL = "https://63547f47e64783fa8285a355.mockapi.io/Jenis-senirupa";
 
-getGitar(BASE_URL)
+getJenis(BASE_URL)
 
-function getGitar(url){
+function getJenis(url){
     fetch(url).then(result => result.json())
     .then(data =>  {
         // console.log(data);
-        showGitar(data);
+        showJenis(data);
     })
 }
 
-function showGitar(data){
+function showJenis(data){
     let main = '';
     data.forEach(unsurSeniRupa => {
         console.log(unsurSeniRupa);

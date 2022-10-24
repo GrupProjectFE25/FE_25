@@ -1,16 +1,16 @@
 const BASE_URL = "https://63547f47e64783fa8285a355.mockapi.io/Unsur-senirupa";
 
-getGitar(BASE_URL)
+getUnsur(BASE_URL)
 
-function getGitar(url){
+function getUnsur(url){
     fetch(url).then(result => result.json())
     .then(data =>  {
         // console.log(data);
-        showGitar(data);
+        showUnsur(data);
     })
 }
 
-function showGitar(data){
+function showUnsur(data){
     let main = '';
     data.forEach(unsurSeniRupa => {
         console.log(unsurSeniRupa);
@@ -29,3 +29,23 @@ function showGitar(data){
         document.getElementById('list-materi').innerHTML = main
     });
 }
+
+let search = document.getElementById('search')
+
+function getSearch(request){
+    let url = `${BASE_URL}?title=${request}`
+    fetch(url).then(result => result.json())
+    .then(data =>  {
+        // console.log(data);
+        showUnsur(data);   
+    })
+}
+
+search.addEventListener('change', (e) => {
+    if (e.target.value == "") {
+        getGitar(BASE_URL);
+    } else {
+        getSearch(e.target.value)
+    }
+    // e.target.value == "" ? getMovie(url) : getSearch(e.target.value) 
+})
