@@ -1,0 +1,99 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+
+}
+
+input{
+    font-size: 255px;
+}
+
+.header h1{
+    margin-top: 400px;
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    letter-spacing: 2cm;
+    line-height: 50px;
+    /* identical to box height, or 104% */
+    
+    letter-spacing: -0.015em;
+    
+    color: #000000;
+}
+
+.form-control{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+span{
+    margin-top: 20px;
+    padding-top: 90px;
+    font-size: 18px;
+}
+
+label{
+    font-size: 25px;
+}
+
+
+#check-img{
+    width: 200px;
+    margin-left: 30% ;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-alert{
+    font-weight: 600;
+}
+
+
+#sign-up-alert{
+    border-color: white;
+    color: black;
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    background: #B1D8FD;
+    border-radius: 28px;    
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#sweetalert{
+    border-color: white;
+    color: black;
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    background: #B1D8FD;
+    border-radius: 28px;    
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+#button-alert{
+    background-color: #B1D8FD;
+    border-color: white;
+}
+
+#href-alert{
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+
+
+.dont-have{
+    text-decoration: none;
+    
+}
+
+img {
+    float: left;
+    width:  50vw;
+    height: 100vh;
+    object-fit: cover;
+}

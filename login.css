@@ -1,0 +1,154 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.login-kiri{
+    margin-top: 25vh;
+}
+.login {
+    height: 100vh;
+   
+}
+
+.header h1{
+    margin-bottom: 100px;
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 50px;
+/* identical to box height, or 104% */
+
+letter-spacing: -0.015em;
+
+color: #000000;
+}
+/* .form-login .form-label {
+    font-size: 29px;
+    margin: 20px 0 20px;
+} */
+
+.form-login .form-control{
+    font-size: 19px;
+}
+
+.form-login .sign-in{
+width: 100%;
+height: 80px;
+background: #ffffff;
+border-radius: 28px;
+}
+
+
+.form-login a{
+    /* Forgot password */
+margin-bottom:20px;
+top: 949px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 50px;
+/* identical to box height, or 238% */
+
+letter-spacing: -0.015em;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+.sign-in{
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+    background: #B1D8FD;
+    border-radius: 28px;
+}
+
+.gapunyaAkun{
+    font-size: 18px;
+    margin-top: 90px;
+    padding-top: 40px;
+}
+
+
+#password{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.sign-in{
+    margin-top: 200px;
+}
+
+
+#email{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+span{
+    margin-top: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+
+.invalid-password{
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+
+#check-img-login{
+    width: 200px;
+    margin-left: 30% ;
+    display: flex;
+    justify-content: center;
+}
+#sign-in-alert{
+    border-color: white;
+    color: black;
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    background: #B1D8FD;
+    border-radius: 28px;    
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+
+#href-alert-signIn{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+
+
+
+    img {
+        float: left;
+        width:  50vw;
+        height: 130vh;
+        object-fit: cover;
+    }
+
+
+
+    .dont-have{
+        text-decoration: none;
+    }
+     a {
+        text-decoration: none;
+    }
+
+    .form-label{
+
+        /* margin-top: 20px;
+        margin-bottom: 20px; */
+        font-size: 23px;
+    }
