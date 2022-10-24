@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    /* list-style: none; */
+}
+
+#header{
+    color: #FFFF;
+    padding: 40px 200px;
+    width: 100%;
+    position: relative;
+    background-color: #005AAC;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-text1 a{
+    color: #FFFF;
+    text-decoration: none;
+}
+
+#header-text1, #header-text3{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#header-text2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 53px;
+}
+
+#footer{
+    position: relative;
+    background-color: #303132;
+    color: #FFFF;
+    padding: 40px 200px;
+    width: 100%;
+    /* text-decoration: none;
+    list-style: none; */
+}
+
+.layanan-menu{
+    text-decoration: none;
+    list-style: none;
+}
+
+#text1-serrum,
+#text1-layanan,
+#text1-about{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#text2-serrum,
+.layanan-menu,
+#text2-about{
+    font-weight: 400;
+    font-size: 15px;
+}
