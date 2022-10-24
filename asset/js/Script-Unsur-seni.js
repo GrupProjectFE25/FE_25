@@ -43,7 +43,7 @@ function getSearch(request){
 
 search.addEventListener('change', (e) => {
     if (e.target.value == "") {
-        getGitar(BASE_URL);
+        getUnsur(BASE_URL);
     } else {
         getSearch(e.target.value)
     }

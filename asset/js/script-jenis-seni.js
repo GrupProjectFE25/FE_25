@@ -29,3 +29,23 @@ function showJenis(data){
         document.getElementById('list-materi').innerHTML = main
     });
 }
+
+let search = document.getElementById('search')
+
+function getSearch(request){
+    let url = `${BASE_URL}?title=${request}`
+    fetch(url).then(result => result.json())
+    .then(data =>  {
+        // console.log(data);
+        showJenis(data);   
+    })
+}
+
+search.addEventListener('change', (e) => {
+    if (e.target.value == "") {
+        getJenis(BASE_URL);
+    } else {
+        getSearch(e.target.value)
+    }
+    // e.target.value == "" ? getMovie(url) : getSearch(e.target.value) 
+})
