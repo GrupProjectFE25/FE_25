@@ -19,7 +19,7 @@
             icon: "success",
             title: "Congratulation",
             text: "youre logged in ",
-            footer: '<a href="#">Go to homepage </a>',           
+            footer: '<a href="index.html">Go to homepage </a>',           
           })
         }       
       })
